@@ -6,5 +6,5 @@ Steps:
 2. run command ' cd fun-phone-directory '
 ## make the bin folder file executable in unix environment (once per system)
 3. chmod u+x ./bin/fun_directory.rb
-4. run programm through command '  ./bin/fun_directory.rb '
+4. run programm through command "  ./bin/fun_directory.rb -f='./input_files/format-1.text' "
 
