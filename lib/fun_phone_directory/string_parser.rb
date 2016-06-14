@@ -8,7 +8,7 @@ module FunPhoneDirectory
     ALPHABET_REGEX = /[a-z]/i
 
     def initialize(input_raw_string)
-      @input_raw_string = input_raw_string
+      @input_raw_string = input_raw_string.gsub(/\s+/, "")
     end
 
     attr_reader :input_raw_string

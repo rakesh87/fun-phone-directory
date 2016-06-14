@@ -39,7 +39,7 @@ describe FunPhoneDirectory::InputParser do
     end
 
     it "should have the hash data, hash key as input numbers and values as a possible words array -3" do
-      @input_parser3.words_combinations["!2255.63"].must_include("!CALL-ME")
+      @input_parser3.words_combinations["!2255.63"].must_equal(["!CALL-ME"])
     end
 
   end
